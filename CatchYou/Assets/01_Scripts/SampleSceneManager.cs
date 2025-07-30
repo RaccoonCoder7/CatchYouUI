@@ -9,6 +9,7 @@ using static GoodsDataTable;
 /// </summary>
 public class SampleSceneManager : MonoBehaviour
 {
+    #region Public Variable
     public Button gachaBtn;
     public Button popupCloseBtn;
     public Button inventoryBtn;
@@ -26,11 +27,15 @@ public class SampleSceneManager : MonoBehaviour
     public Material particleMaterial;
     public GoodsItemContainer goodsItemPrefab;
     public GoodsDataTable dataTable;
+    #endregion
 
+    #region Private Variable
     private Transform fakePopupImageTr;
     private Color originParticleColor;
     private List<GoodsItemContainer> inventoryGoodsItemList = new List<GoodsItemContainer>();
+    #endregion
 
+    #region LifeCycle
     void Start()
     {
         fakePopupImageTr = fakePopupImage.transform;
@@ -48,7 +53,9 @@ public class SampleSceneManager : MonoBehaviour
         // 파티클용 머테리얼 색상 초기화
         particleMaterial.color = originParticleColor;
     }
+    #endregion
 
+    #region Public Method
     // 뽑기 버튼 기능
     public void OnClickGacha()
     {
@@ -112,7 +119,9 @@ public class SampleSceneManager : MonoBehaviour
     {
         inventoryPanel.SetActive(false);
     }
+    #endregion
 
+    #region Private Method
     // 팝업 창의 데이터를 세팅
     private void SetPopupData(Goods goods)
     {
@@ -192,4 +201,5 @@ public class SampleSceneManager : MonoBehaviour
 
         particleMaterial.color = newColor;
     }
+    #endregion
 }
