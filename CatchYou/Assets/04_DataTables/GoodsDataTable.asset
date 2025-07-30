@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 837799685267cee43936f2eeb81963db, type: 3}
+  m_Name: GoodsDataTable
+  m_EditorClassIdentifier: 
+  goodsList:
+  - goodsKey: hermes
+    brand: "\uC5D0\uB974\uBA54\uC2A4"
+    name: "\uC5D0\uB974\uBA54\uC2A4 \uD1A0\uD2B8\uBC31"
+    rarity: 0
+    price: 12300000
+    texture: {fileID: 2800000, guid: bf1eb0b849c825049b27f55446b475ca, type: 3}
+  - goodsKey: louisvuitton
+    brand: "\uB8E8\uC774\uBE44\uD1B5"
+    name: "\uB8E8\uC774\uBE44\uD1B5 \uC2AC\uB9C1\uBC31"
+    rarity: 1
+    price: 3790000
+    texture: {fileID: 2800000, guid: 452477c08712b3040a3f3f542ee9a489, type: 3}
+  - goodsKey: ysl
+    brand: "\uC0DD\uB85C\uB791"
+    name: "\uC0DD\uB85C\uB791 \uCE74\uD504\uC2A4\uD0A8 \uC9C0\uAC11"
+    rarity: 2
+    price: 420000
+    texture: {fileID: 2800000, guid: 285a4be32e6e2f246b832f64ec76a142, type: 3}
+  - goodsKey: chanel
+    brand: "\uC0E4\uB12C"
+    name: "\uC0E4\uB12C \uC2E4\uD06C \uD2B8\uC70C"
+    rarity: 3
+    price: 196000
+    texture: {fileID: 2800000, guid: 3107db1a2e61af644ac49ee32099f4f0, type: 3}
+  rarityDataList:
+  - rarity: 0
+    icon: {fileID: 2800000, guid: ab4b1b2a0f4b98f4681d5a69fed4a4b3, type: 3}
+  - rarity: 1
+    icon: {fileID: 2800000, guid: 85011f3de80c6d146bd2a8c9247a47a5, type: 3}
+  - rarity: 2
+    icon: {fileID: 2800000, guid: 3539323c12f64d844a22efebebfddb7d, type: 3}
+  - rarity: 3
+    icon: {fileID: 2800000, guid: 497b78de5d15c75449220580b816d79b, type: 3}
